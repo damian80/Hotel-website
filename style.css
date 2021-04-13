@@ -31,7 +31,9 @@ nav a {
 .active {
   color: lightsalmon;
 }
-
+.btn:hover {
+  color: lightsalmon;
+}
 /* HEADER */
 section.room-bgc {
   background: url('images/room.jpeg') no-repeat center/cover;
@@ -72,4 +74,42 @@ a.hotel {
 
 a.hotel:hover {
   background-color: lightsalmon;
+}
+a.history {
+  display: inline-block;
+  /* color: #fff; */
+  color: #333;
+  text-decoration: none;
+  font-family: arial;
+  border: solid 2px #333;
+  padding: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+a.history:hover {
+  background-color: lightsalmon;
+}
+.hotel-out {
+  float: left;
+  background: url('images/room.jpeg') no-repeat;
+  width: 50%;
+  height: 100%;
+}
+.about-hotel {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  font-family: arial;
+  line-height: 2em;
+}
+footer {
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  background-color: #333;
+  clear: both;
+  text-align: center;
+  font-family: arial;
 }
